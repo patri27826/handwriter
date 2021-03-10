@@ -64,6 +64,17 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 
 /***/ }),
 
+/***/ "61KV":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',[_c('div',{staticClass:"text-center signaturepad-outer"},[_c('div',{ref:"signaturepad",staticClass:"signature-pad",attrs:{"id":"signature-pad"}},[_c('div',{staticClass:"signature-pad--body"},[_c('canvas',{ref:"canvas"})])])]),_vm._v(" "),(_vm.word)?_c('div',{staticClass:"word"},[_vm._v(" "+_vm._s(_vm.word[_vm.word_count])+" ")]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"footer text-center"},[_c('div',{staticStyle:{"margin":"5px"}},[_c('button',{ref:"png",staticClass:"btn-info btn btn-lg",on:{"click":function($event){$event.preventDefault();return _vm.savePNGButton($event)}}},[_vm._v("Save as PNG")])]),_vm._v(" "),_c('button',{ref:"clear",staticClass:"btn-info btn btn-lg",on:{"click":function($event){$event.preventDefault();return _vm.clearButton($event)}}},[_vm._v("Clear")]),_vm._v(" "),_c('button',{ref:"undo",staticClass:"btn-info btn btn-lg",on:{"click":function($event){$event.preventDefault();return _vm.undoButton($event)}}},[_vm._v("Undo")]),_vm._v(" "),_c('div',{staticStyle:{"margin":"5px"}},[_c('button',{staticClass:"btn-info btn btn-lg",on:{"click":function($event){$event.preventDefault();return _vm.showPic($event)}}},[_vm._v("Show I have drawn")]),_vm._v(" "),(_vm.picture)?_c('div',_vm._l((_vm.picture),function(pic){return _c('div',{key:pic},[_c('img',{attrs:{"src":_vm.getImgUrl(pic)}})])}),0):_vm._e()])]),_vm._v(" "),_c('div')]),_vm._v(" "),_c('login',{on:{"login_check":_vm.login_check}})],1)}
+var staticRenderFns = []
+var esExports = { render: render, staticRenderFns: staticRenderFns }
+/* harmony default export */ __webpack_exports__["a"] = (esExports);
+
+/***/ }),
+
 /***/ "7GwW":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -266,7 +277,7 @@ exports.push([module.i, ".back[data-v-780628d0]{top:0;position:fixed;width:100%;
 
 /***/ }),
 
-/***/ "CPmq":
+/***/ "BFh/":
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__("FZ+f")(true);
@@ -274,7 +285,7 @@ exports = module.exports = __webpack_require__("FZ+f")(true);
 
 
 // module
-exports.push([module.i, ".signaturepad-outer[data-v-8e133254]{width:70vw;height:70vw;margin:3vw auto}.signature-pad[data-v-8e133254]{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;font-size:10px;width:100%;height:100%;border:1px solid #e8e8e8;background-color:#fff;-webkit-box-shadow:0 1px 4px rgba(0,0,0,.27),0 0 40px rgba(0,0,0,.08) inset;box-shadow:0 1px 4px rgba(0,0,0,.27),inset 0 0 40px rgba(0,0,0,.08);border-radius:4px;padding:5%;margin:auto}.signature-pad[data-v-8e133254]:after,.signature-pad[data-v-8e133254]:before{position:absolute;z-index:-1;content:\"\";width:40%;height:10px;bottom:10px;background:transparent;-webkit-box-shadow:0 8px 12px rgba(0,0,0,.4);box-shadow:0 8px 12px rgba(0,0,0,.4)}.signature-pad[data-v-8e133254]:before{left:20px;-webkit-transform:skew(-3deg) rotate(-3deg);transform:skew(-3deg) rotate(-3deg)}.signature-pad[data-v-8e133254]:after{right:20px;-webkit-transform:skew(3deg) rotate(3deg);transform:skew(3deg) rotate(3deg)}.signature-pad--body[data-v-8e133254]{position:relative;-webkit-box-flex:1;-ms-flex:1;flex:1;border:1px solid #f4f4f4}.signature-pad--body canvas[data-v-8e133254]{position:absolute;left:0;top:0;width:100%;height:100%;border-radius:4px;-webkit-box-shadow:0 0 5px rgba(0,0,0,.02) inset;box-shadow:inset 0 0 5px rgba(0,0,0,.02)}.footer[data-v-8e133254]{height:300px;width:100%}.word[data-v-8e133254]{font-size:3.5em;font-weight:500}", "", {"version":3,"sources":["C:/Users/USER/pingProjects/Research/flask-vue-spa-master/frontend/src/components/Home.vue"],"names":[],"mappings":"AACA,qCACI,WAAY,AACZ,YAAa,AACb,eAAiB,CACpB,AACD,gCACI,kBAAmB,AACnB,oBAAqB,AACrB,oBAAqB,AACrB,aAAc,AACd,4BAA6B,AAC7B,6BAA8B,AAC9B,0BAA2B,AAC3B,sBAAuB,AACvB,eAAgB,AAChB,WAAY,AACZ,YAAa,AAGb,yBAA0B,AAC1B,sBAAuB,AACvB,4EAAsF,AAC9E,oEAA8E,AACtF,kBAAmB,AACnB,WAAY,AACZ,WAAa,CAChB,AACD,6EAEI,kBAAmB,AACnB,WAAY,AACZ,WAAY,AACZ,UAAW,AACX,YAAa,AACb,YAAa,AACb,uBAAwB,AACxB,6CAAkD,AAC1C,oCAA0C,CACrD,AACD,uCACI,UAAW,AACX,4CAA6C,AAC7C,mCAAqC,CACxC,AACD,sCACI,WAAY,AACZ,0CAA2C,AAC3C,iCAAmC,CACtC,AACD,sCACI,kBAAmB,AACnB,mBAAoB,AACpB,WAAY,AACZ,OAAQ,AACR,wBAA0B,CAC7B,AACD,6CACI,kBAAmB,AACnB,OAAQ,AACR,MAAO,AACP,WAAY,AACZ,YAAa,AACb,kBAAmB,AACnB,iDAAsD,AAC9C,wCAA8C,CACzD,AACD,yBACI,aAAc,AACd,UAAY,CAEf,AACD,uBACI,gBAAiB,AACjB,eAAiB,CACpB","file":"Home.vue","sourcesContent":["\n.signaturepad-outer[data-v-8e133254]{\n    width: 70vw;\n    height: 70vw;\n    margin: 3vw auto;\n}\n.signature-pad[data-v-8e133254] {\n    position: relative;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: column;\n    flex-direction: column;\n    font-size: 10px;\n    width: 100%;\n    height: 100%;\n    /* max-width: 360px;\n    max-height: 360px; */\n    border: 1px solid #e8e8e8;\n    background-color: #fff;\n    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.08) inset;\n            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.08) inset;\n    border-radius: 4px;\n    padding: 5%;\n    margin: auto;\n}\n.signature-pad[data-v-8e133254]::before,\n.signature-pad[data-v-8e133254]::after {\n    position: absolute;\n    z-index: -1;\n    content: \"\";\n    width: 40%;\n    height: 10px;\n    bottom: 10px;\n    background: transparent;\n    -webkit-box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);\n            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);\n}\n.signature-pad[data-v-8e133254]::before {\n    left: 20px;\n    -webkit-transform: skew(-3deg) rotate(-3deg);\n    transform: skew(-3deg) rotate(-3deg);\n}\n.signature-pad[data-v-8e133254]::after {\n    right: 20px;\n    -webkit-transform: skew(3deg) rotate(3deg);\n    transform: skew(3deg) rotate(3deg);\n}\n.signature-pad--body[data-v-8e133254] {\n    position: relative;\n    -webkit-box-flex: 1;\n    -ms-flex: 1;\n    flex: 1;\n    border: 1px solid #f4f4f4;\n}\n.signature-pad--body canvas[data-v-8e133254] {\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    border-radius: 4px;\n    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.02) inset;\n            box-shadow: 0 0 5px rgba(0, 0, 0, 0.02) inset;\n}\n.footer[data-v-8e133254] {\n    height: 300px;\n    width: 100%;\n    /* background-color: aliceblue; */\n}\n.word[data-v-8e133254]{\n    font-size: 3.5em;\n    font-weight: 500;\n}\n"],"sourceRoot":""}]);
+exports.push([module.i, ".signaturepad-outer[data-v-252f57fb]{width:70vw;height:70vw;margin:3vw auto}.signature-pad[data-v-252f57fb]{position:relative;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;font-size:10px;width:100%;height:100%;border:1px solid #e8e8e8;background-color:#fff;-webkit-box-shadow:0 1px 4px rgba(0,0,0,.27),0 0 40px rgba(0,0,0,.08) inset;box-shadow:0 1px 4px rgba(0,0,0,.27),inset 0 0 40px rgba(0,0,0,.08);border-radius:4px;padding:5%;margin:auto}.signature-pad[data-v-252f57fb]:after,.signature-pad[data-v-252f57fb]:before{position:absolute;z-index:-1;content:\"\";width:40%;height:10px;bottom:10px;background:transparent;-webkit-box-shadow:0 8px 12px rgba(0,0,0,.4);box-shadow:0 8px 12px rgba(0,0,0,.4)}.signature-pad[data-v-252f57fb]:before{left:20px;-webkit-transform:skew(-3deg) rotate(-3deg);transform:skew(-3deg) rotate(-3deg)}.signature-pad[data-v-252f57fb]:after{right:20px;-webkit-transform:skew(3deg) rotate(3deg);transform:skew(3deg) rotate(3deg)}.signature-pad--body[data-v-252f57fb]{position:relative;-webkit-box-flex:1;-ms-flex:1;flex:1;border:1px solid #f4f4f4}.signature-pad--body canvas[data-v-252f57fb]{position:absolute;left:0;top:0;width:100%;height:100%;border-radius:4px;-webkit-box-shadow:0 0 5px rgba(0,0,0,.02) inset;box-shadow:inset 0 0 5px rgba(0,0,0,.02)}.footer[data-v-252f57fb]{height:300px;width:100%}.word[data-v-252f57fb]{font-size:3.5em;font-weight:500}", "", {"version":3,"sources":["C:/Users/USER/pingProjects/Research/flask-vue-spa-master/frontend/src/components/Home.vue"],"names":[],"mappings":"AACA,qCACI,WAAY,AACZ,YAAa,AACb,eAAiB,CACpB,AACD,gCACI,kBAAmB,AACnB,oBAAqB,AACrB,oBAAqB,AACrB,aAAc,AACd,4BAA6B,AAC7B,6BAA8B,AAC9B,0BAA2B,AAC3B,sBAAuB,AACvB,eAAgB,AAChB,WAAY,AACZ,YAAa,AAGb,yBAA0B,AAC1B,sBAAuB,AACvB,4EAAsF,AAC9E,oEAA8E,AACtF,kBAAmB,AACnB,WAAY,AACZ,WAAa,CAChB,AACD,6EAEI,kBAAmB,AACnB,WAAY,AACZ,WAAY,AACZ,UAAW,AACX,YAAa,AACb,YAAa,AACb,uBAAwB,AACxB,6CAAkD,AAC1C,oCAA0C,CACrD,AACD,uCACI,UAAW,AACX,4CAA6C,AAC7C,mCAAqC,CACxC,AACD,sCACI,WAAY,AACZ,0CAA2C,AAC3C,iCAAmC,CACtC,AACD,sCACI,kBAAmB,AACnB,mBAAoB,AACpB,WAAY,AACZ,OAAQ,AACR,wBAA0B,CAC7B,AACD,6CACI,kBAAmB,AACnB,OAAQ,AACR,MAAO,AACP,WAAY,AACZ,YAAa,AACb,kBAAmB,AACnB,iDAAsD,AAC9C,wCAA8C,CACzD,AACD,yBACI,aAAc,AACd,UAAY,CAEf,AACD,uBACI,gBAAiB,AACjB,eAAiB,CACpB","file":"Home.vue","sourcesContent":["\n.signaturepad-outer[data-v-252f57fb]{\n    width: 70vw;\n    height: 70vw;\n    margin: 3vw auto;\n}\n.signature-pad[data-v-252f57fb] {\n    position: relative;\n    display: -webkit-box;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -ms-flex-direction: column;\n    flex-direction: column;\n    font-size: 10px;\n    width: 100%;\n    height: 100%;\n    /* max-width: 360px;\n    max-height: 360px; */\n    border: 1px solid #e8e8e8;\n    background-color: #fff;\n    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.08) inset;\n            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.08) inset;\n    border-radius: 4px;\n    padding: 5%;\n    margin: auto;\n}\n.signature-pad[data-v-252f57fb]::before,\n.signature-pad[data-v-252f57fb]::after {\n    position: absolute;\n    z-index: -1;\n    content: \"\";\n    width: 40%;\n    height: 10px;\n    bottom: 10px;\n    background: transparent;\n    -webkit-box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);\n            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);\n}\n.signature-pad[data-v-252f57fb]::before {\n    left: 20px;\n    -webkit-transform: skew(-3deg) rotate(-3deg);\n    transform: skew(-3deg) rotate(-3deg);\n}\n.signature-pad[data-v-252f57fb]::after {\n    right: 20px;\n    -webkit-transform: skew(3deg) rotate(3deg);\n    transform: skew(3deg) rotate(3deg);\n}\n.signature-pad--body[data-v-252f57fb] {\n    position: relative;\n    -webkit-box-flex: 1;\n    -ms-flex: 1;\n    flex: 1;\n    border: 1px solid #f4f4f4;\n}\n.signature-pad--body canvas[data-v-252f57fb] {\n    position: absolute;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    border-radius: 4px;\n    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.02) inset;\n            box-shadow: 0 0 5px rgba(0, 0, 0, 0.02) inset;\n}\n.footer[data-v-252f57fb] {\n    height: 300px;\n    width: 100%;\n    /* background-color: aliceblue; */\n}\n.word[data-v-252f57fb]{\n    font-size: 3.5em;\n    font-weight: 500;\n}\n"],"sourceRoot":""}]);
 
 // exports
 
@@ -519,7 +530,8 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgI
             login: false,
             username: null,
             password: null,
-            picture: null
+            picture: null,
+            webURl: 'https://patri27826.github.io/handwriter/'
         };
     },
 
@@ -529,7 +541,7 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgI
             if (this.signaturePad.isEmpty()) {
                 alert("Please provide a signature first.");
             } else {
-                var path = 'http://localhost:5000/api/getdata';
+                var path = this.webURl + '/api/getdata';
                 var dataURL = this.signaturePad.toDataURL("image/jpeg");
                 __WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(path, { params: { data: dataURL, username: this.username, count: this.word_count } }).then(function (response) {
                     console.log(response.data);
@@ -559,7 +571,7 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgI
         showPic: function showPic() {
             var _this = this;
 
-            __WEBPACK_IMPORTED_MODULE_1_axios___default.a.get('http://localhost:5000/api/getpic', { params: { username: this.username } }).then(function (response) {
+            __WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(this.webURl + 'api/getpic', { params: { username: this.username } }).then(function (response) {
                 var pics = response.data;
                 _this.picture = pics.split(',');
             }).catch(function (error) {
@@ -587,7 +599,7 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAMCAgI
         this.signaturePad.clear();
 
         //get list
-        __WEBPACK_IMPORTED_MODULE_1_axios___default.a.get("http://localhost:5000/api/sendword").then(function (response) {
+        __WEBPACK_IMPORTED_MODULE_1_axios___default.a.get(this.webURl + "/api/sendword").then(function (response) {
             console.log(response.data.list);
             _this2.word = response.data.list;
         }).catch(function (error) {
@@ -697,17 +709,6 @@ module.exports = (
     })()
 );
 
-
-/***/ }),
-
-/***/ "HPUp":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('div',[_c('div',{staticClass:"text-center signaturepad-outer"},[_c('div',{ref:"signaturepad",staticClass:"signature-pad",attrs:{"id":"signature-pad"}},[_c('div',{staticClass:"signature-pad--body"},[_c('canvas',{ref:"canvas"})])])]),_vm._v(" "),(_vm.word)?_c('div',{staticClass:"word"},[_vm._v(" "+_vm._s(_vm.word[_vm.word_count])+" ")]):_vm._e(),_vm._v(" "),_c('div',{staticClass:"footer text-center"},[_c('div',{staticStyle:{"margin":"5px"}},[_c('button',{ref:"png",staticClass:"btn-info btn btn-lg",on:{"click":function($event){$event.preventDefault();return _vm.savePNGButton($event)}}},[_vm._v("Save as PNG")])]),_vm._v(" "),_c('button',{ref:"clear",staticClass:"btn-info btn btn-lg",on:{"click":function($event){$event.preventDefault();return _vm.clearButton($event)}}},[_vm._v("Clear")]),_vm._v(" "),_c('button',{ref:"undo",staticClass:"btn-info btn btn-lg",on:{"click":function($event){$event.preventDefault();return _vm.undoButton($event)}}},[_vm._v("Undo")]),_vm._v(" "),_c('div',{staticStyle:{"margin":"5px"}},[_c('button',{staticClass:"btn-info btn btn-lg",on:{"click":function($event){$event.preventDefault();return _vm.showPic($event)}}},[_vm._v("Show I have drawn")]),_vm._v(" "),(_vm.picture)?_c('div',_vm._l((_vm.picture),function(pic){return _c('div',{key:pic},[_c('img',{attrs:{"src":_vm.getImgUrl(pic)}})])}),0):_vm._e()])]),_vm._v(" "),_c('div')]),_vm._v(" "),_c('login',{on:{"login_check":_vm.login_check}})],1)}
-var staticRenderFns = []
-var esExports = { render: render, staticRenderFns: staticRenderFns }
-/* harmony default export */ __webpack_exports__["a"] = (esExports);
 
 /***/ }),
 
@@ -937,20 +938,6 @@ module.exports = function transformData(data, headers, fns) {
   return data;
 };
 
-
-/***/ }),
-
-/***/ "VxAT":
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__("CPmq");
-if(typeof content === 'string') content = [[module.i, content, '']];
-if(content.locals) module.exports = content.locals;
-// add the styles to the DOM
-var update = __webpack_require__("rjj0")("563de776", content, true, {});
 
 /***/ }),
 
@@ -2159,9 +2146,9 @@ webpackContext.id = "l2tl";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Home_vue__ = __webpack_require__("Fs8J");
 /* empty harmony namespace reexport */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_8e133254_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Home_vue__ = __webpack_require__("HPUp");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_252f57fb_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Home_vue__ = __webpack_require__("61KV");
 function injectStyle (ssrContext) {
-  __webpack_require__("VxAT")
+  __webpack_require__("yT9Y")
 }
 var normalizeComponent = __webpack_require__("VU/8")
 /* script */
@@ -2174,12 +2161,12 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-8e133254"
+var __vue_scopeId__ = "data-v-252f57fb"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_lib_selector_type_script_index_0_Home_vue__["a" /* default */],
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_8e133254_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Home_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_252f57fb_hasScoped_true_transformToRequire_video_src_source_src_img_src_image_xlink_href_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_Home_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -2711,7 +2698,21 @@ module.exports = function dispatchRequest(config) {
 };
 
 
+/***/ }),
+
+/***/ "yT9Y":
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__("BFh/");
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var update = __webpack_require__("rjj0")("212ed3cd", content, true, {});
+
 /***/ })
 
 });
-//# sourceMappingURL=0.e735d0b5a11c44a63289.js.map
+//# sourceMappingURL=0.2f341f94a2d29c81d17f.js.map
